@@ -2,13 +2,17 @@ const COLOR_FAMILIES = [
   'gray', 'mauve', 'slate', 'sage', 'olive', 'sand', 'amber', 'orange', 'red', 'pink', 'plum', 'purple', 'violet', 'indigo', 'blue', 'teal', 'green'
 ];
 
-export default function TextPage() {
+interface DemoGridProps {
+  columns: number;
+}
+
+function DemoGrid({ columns }: DemoGridProps) {
   return (
-    <div className="text-grid">
+    <div className="demo-grid" style={{ gridTemplateColumns: `repeat(${columns}, 1fr)` }}>
       {COLOR_FAMILIES.map((family) => (
         <div
           key={family}
-          className="text-grid-cell"
+          className="demo-grid-cell"
           style={{ color: `var(--${family}-t1)` }}
         >
           The quick brown fox jumps over the lazy dog.
@@ -16,4 +20,8 @@ export default function TextPage() {
       ))}
     </div>
   );
+}
+
+export default function TextPage() {
+  return <DemoGrid columns={2} />;
 } 

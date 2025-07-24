@@ -77,14 +77,15 @@ body {
   overflow-y: auto;
 }
 
-.text-grid {
+/* Demo grid styles */
+.demo-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
   background: #fff;
 }
 
-.text-grid-cell {
+.demo-grid-cell {
   padding: 32px;
   border-bottom: 1px solid var(--gray-o1);
   border-right: 1px solid var(--gray-o1);
@@ -93,10 +94,6 @@ body {
   background: #fff;
 }
 
-.text-grid-cell:nth-child(2n) {
-  border-right: none;
-}
-
-.text-grid-cell:last-child {
+.demo-grid-cell:last-child {
   border-bottom: none;
 }
