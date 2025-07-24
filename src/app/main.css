@@ -33,6 +33,13 @@ body {
   top: 0;
   z-index: 2;
   background: #fff;
+  font-family: test söhne mono, menlo, monaco, monospace;
+  color: hsl(0 0% 46.5% / 1);
+  letter-spacing: .75px;
+}
+
+.Swatch, .Name {
+  white-space: nowrap;
 }
 
 .app-button {
