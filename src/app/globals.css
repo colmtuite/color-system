@@ -47,7 +47,7 @@ body {
   display: inline flex;
   align-items: center;
   height: 32px;
-  padding: 0 15px;
+  padding: 0 12px;
   text-decoration: none;
   color: var(--gray-t2);
   border-radius: 6px;
