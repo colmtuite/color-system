@@ -29,7 +29,8 @@ body {
 
 /* Sidebar styles */
 .sidebar {
-  width: 230px;
+  box-sizing: border-box;
+  width: 250px;
   border-right: 1px solid var(--gray-o1);
   padding: 12px;
   overflow-y: auto;
@@ -64,7 +65,8 @@ body {
 
 /* Right sidebar styles */
 .right-sidebar {
-  width: 230px;
+  box-sizing: border-box;
+  width: 250px;
   border-left: 1px solid var(--gray-o1);
   padding: 20px;
   overflow-y: auto;
@@ -86,16 +88,16 @@ body {
 }
 
 .demo-grid-cell {
-  padding: 32px;
+  padding: var(--demo-grid-padding);
   border-bottom: 1px solid var(--gray-o1);
   border-right: 1px solid var(--gray-o1);
   font-size: 16px;
   font-family: inherit;
   background: #fff;
-}
-
-.demo-grid-cell:nth-child(2n) {
-  border-right: none;
+  aspect-ratio: var(--demo-grid-aspect-ratio);
+  display: flex;
+  align-items: var(--demo-grid-align, start);
+  justify-content: var(--demo-grid-align, start);
 }
 
 .demo-grid-cell:last-child {

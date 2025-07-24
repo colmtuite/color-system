@@ -11,24 +11,27 @@ export default function Sidebar() {
       <nav>
         <Link 
           href="/" 
-          className={pathname === '/' ? 'active' : ''}
           aria-current={pathname === '/' ? 'page' : undefined}
         >
-          Home
-        </Link>
-        <Link 
-          href="/accessibility" 
-          className={pathname === '/accessibility' ? 'active' : ''}
-          aria-current={pathname === '/accessibility' ? 'page' : undefined}
-        >
-          Accessibility
+          Color
         </Link>
         <Link 
           href="/text" 
-          className={pathname === '/text' ? 'active' : ''}
           aria-current={pathname === '/text' ? 'page' : undefined}
         >
           Text
+        </Link>
+        <Link 
+          href="/button" 
+          aria-current={pathname === '/button' ? 'page' : undefined}
+        >
+          Button
+        </Link>
+        <Link 
+          href="/accessibility" 
+          aria-current={pathname === '/accessibility' ? 'page' : undefined}
+        >
+          Accessibility
         </Link>
       </nav>
     </aside>

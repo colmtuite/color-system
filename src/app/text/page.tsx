@@ -1,12 +1,9 @@
 import { COLOR_FAMILIES } from '../lib/constants';
+import DemoGrid from '../components/DemoGrid';
 
-interface DemoGridProps {
-  columns: number;
-}
-
-function DemoGrid({ columns }: DemoGridProps) {
+export default function TextPage() {
   return (
-    <div className="demo-grid" style={{ gridTemplateColumns: `repeat(${columns}, 1fr)` }}>
+    <DemoGrid columns={2} padding={32}>
       {COLOR_FAMILIES.map((family) => (
         <div
           key={family}
@@ -16,10 +13,6 @@ function DemoGrid({ columns }: DemoGridProps) {
           The quick brown fox jumps over the lazy dog.
         </div>
       ))}
-    </div>
+    </DemoGrid>
   );
-}
-
-export default function TextPage() {
-  return <DemoGrid columns={2} />;
 } 
