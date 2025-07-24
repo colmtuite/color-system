@@ -58,7 +58,7 @@ body {
   background-color: var(--gray-c2);
 }
 
-.sidebar nav a.active {
+.sidebar nav a[aria-current="page"] {
   background-color: var(--gray-c3);
 }
 
