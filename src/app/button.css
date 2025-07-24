@@ -40,33 +40,57 @@
 .Button.variant-filled.color-green { background-color: var(--green-p1); }
 
 .Button.variant-soft.color-gray { background-color: var(--gray-c1); color: var(--gray-t1); }
+.Button.variant-soft.color-mauve { background-color: var(--mauve-c1); color: var(--mauve-t1); }
+.Button.variant-soft.color-slate { background-color: var(--slate-c1); color: var(--slate-t1); }
+.Button.variant-soft.color-sage { background-color: var(--sage-c1); color: var(--sage-t1); }
+.Button.variant-soft.color-olive { background-color: var(--olive-c1); color: var(--olive-t1); }
+.Button.variant-soft.color-sand { background-color: var(--sand-c1); color: var(--sand-t1); }
+.Button.variant-soft.color-amber { background-color: var(--amber-c1); color: var(--amber-t1); }
 .Button.variant-soft.color-orange { background-color: var(--orange-c1); color: var(--orange-t1); }
 .Button.variant-soft.color-red { background-color: var(--red-c1); color: var(--red-t1); }
 .Button.variant-soft.color-pink { background-color: var(--pink-c1); color: var(--pink-t1); }
+.Button.variant-soft.color-plum { background-color: var(--plum-c1); color: var(--plum-t1); }
 .Button.variant-soft.color-purple { background-color: var(--purple-c1); color: var(--purple-t1); }
 .Button.variant-soft.color-violet { background-color: var(--violet-c1); color: var(--violet-t1); }
 .Button.variant-soft.color-indigo { background-color: var(--indigo-c1); color: var(--indigo-t1); }
 .Button.variant-soft.color-blue { background-color: var(--blue-c1); color: var(--blue-t1); }
+.Button.variant-soft.color-teal { background-color: var(--teal-c1); color: var(--teal-t1); }
 .Button.variant-soft.color-green { background-color: var(--green-c1); color: var(--green-t1); }
 
 .Button.variant-soft.color-gray:hover { background-color: var(--gray-c2); }
+.Button.variant-soft.color-mauve:hover { background-color: var(--mauve-c2); }
+.Button.variant-soft.color-slate:hover { background-color: var(--slate-c2); }
+.Button.variant-soft.color-sage:hover { background-color: var(--sage-c2); }
+.Button.variant-soft.color-olive:hover { background-color: var(--olive-c2); }
+.Button.variant-soft.color-sand:hover { background-color: var(--sand-c2); }
+.Button.variant-soft.color-amber:hover { background-color: var(--amber-c2); }
 .Button.variant-soft.color-orange:hover { background-color: var(--orange-c2); }
 .Button.variant-soft.color-red:hover { background-color: var(--red-c2); }
 .Button.variant-soft.color-pink:hover { background-color: var(--pink-c2); }
+.Button.variant-soft.color-plum:hover { background-color: var(--plum-c2); }
 .Button.variant-soft.color-purple:hover { background-color: var(--purple-c2); }
 .Button.variant-soft.color-violet:hover { background-color: var(--violet-c2); }
 .Button.variant-soft.color-indigo:hover { background-color: var(--indigo-c2); }
 .Button.variant-soft.color-blue:hover { background-color: var(--blue-c2); }
+.Button.variant-soft.color-teal:hover { background-color: var(--teal-c2); }
 .Button.variant-soft.color-green:hover { background-color: var(--green-c2); }
 
 .Button.variant-soft.color-gray:active { background-color: var(--gray-c3); }
+.Button.variant-soft.color-mauve:active { background-color: var(--mauve-c3); }
+.Button.variant-soft.color-slate:active { background-color: var(--slate-c3); }
+.Button.variant-soft.color-sage:active { background-color: var(--sage-c3); }
+.Button.variant-soft.color-olive:active { background-color: var(--olive-c3); }
+.Button.variant-soft.color-sand:active { background-color: var(--sand-c3); }
+.Button.variant-soft.color-amber:active { background-color: var(--amber-c3); }
 .Button.variant-soft.color-orange:active { background-color: var(--orange-c3); }
 .Button.variant-soft.color-red:active { background-color: var(--red-c3); }
 .Button.variant-soft.color-pink:active { background-color: var(--pink-c3); }
+.Button.variant-soft.color-plum:active { background-color: var(--plum-c3); }
 .Button.variant-soft.color-purple:active { background-color: var(--purple-c3); }
 .Button.variant-soft.color-violet:active { background-color: var(--violet-c3); }
 .Button.variant-soft.color-indigo:active { background-color: var(--indigo-c3); }
 .Button.variant-soft.color-blue:active { background-color: var(--blue-c3); }
+.Button.variant-soft.color-teal:active { background-color: var(--teal-c3); }
 .Button.variant-soft.color-green:active { background-color: var(--green-c3); }
 
 .Button.variant-text.color-gray { color: var(--gray-t1); }
