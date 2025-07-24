@@ -94,6 +94,10 @@ body {
   background: #fff;
 }
 
+.demo-grid-cell:nth-child(2n) {
+  border-right: none;
+}
+
 .demo-grid-cell:last-child {
   border-bottom: none;
 }

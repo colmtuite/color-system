@@ -1,6 +1,4 @@
-const COLOR_FAMILIES = [
-  'gray', 'mauve', 'slate', 'sage', 'olive', 'sand', 'amber', 'orange', 'red', 'pink', 'plum', 'purple', 'violet', 'indigo', 'blue', 'teal', 'green'
-];
+import { COLOR_FAMILIES } from '../lib/constants';
 
 interface DemoGridProps {
   columns: number;
