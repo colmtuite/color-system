@@ -23,6 +23,13 @@ export default function Sidebar() {
         >
           Accessibility
         </Link>
+        <Link 
+          href="/text" 
+          className={pathname === '/text' ? 'active' : ''}
+          aria-current={pathname === '/text' ? 'page' : undefined}
+        >
+          Text
+        </Link>
       </nav>
     </aside>
   );

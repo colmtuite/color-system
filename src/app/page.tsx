@@ -19,7 +19,9 @@ export default function Home() {
 
   return (
     <div className={isDarkMode ? 'theme-dark' : ''}>
-      <ColorGrid />
+      <div style={{ padding: '0 20px 20px 20px' }}>
+        <ColorGrid />
+      </div>
     </div>
   );
 }
