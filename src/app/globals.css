@@ -60,7 +60,6 @@ body {
 .sidebar nav a.active {
   background-color: var(--gray-c3);
   color: var(--gray-t2);
-  font-weight: 500;
 }
 
 /* Right sidebar styles */

@@ -23,6 +23,16 @@ body {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
+  gap: 1px;
+}
+
+/* Sticky grid header (Name + Swatch header row) */
+.Grid > .Name:first-child,
+.Grid > .Swatch:nth-child(n+2):nth-child(-n+17) {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #fff;
 }
 
 .app-button {
