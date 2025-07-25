@@ -3,6 +3,7 @@ import "./css/style.css";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import RightSidebar from "./components/RightSidebar";
+import { AppProvider } from "./context/AppContext";
 
 export const metadata: Metadata = {
   title: "Color System",
@@ -17,14 +18,16 @@ export default function RootLayout({
   return (
     <html lang="en-US">
       <body>
-        <Header />
-        <div className="main-content">
-          <Sidebar />
-          <div className="center-content">
-            {children}
+        <AppProvider>
+          <Header />
+          <div className="main-content">
+            <Sidebar />
+            <div className="center-content">
+              {children}
+            </div>
+            <RightSidebar />
           </div>
-          <RightSidebar />
-        </div>
+        </AppProvider>
       </body>
     </html>
   );

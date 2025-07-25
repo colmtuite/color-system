@@ -4,9 +4,13 @@ import Scale from './Scale';
 
 const STEP_LABELS = ['s0', 's1', 's2', 'c1', 'c2', 'c3', 'o1', 'o2', 'o3', 'p1', 'p2', 'p3', 't1', 't2'];
 
-export default function ColorGrid() {
+interface ColorGridProps {
+  gap?: boolean;
+}
+
+export default function ColorGrid({ gap = false }: ColorGridProps) {
   return (
-    <div className="Grid">
+    <div className="Grid" style={{ gap: gap ? '1px' : undefined }}>
       <GridHeader />
       {COLOR_FAMILIES.map((family) => (
         <Scale 
