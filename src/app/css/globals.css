@@ -108,6 +108,7 @@ body {
   flex-basis: 0;
   flex-grow: 1;
   height: 20px;
+  opacity: 0.5;
 }
 
 .HueIndicator:first-child {
@@ -116,4 +117,8 @@ body {
 
 .HueIndicator:last-child {
   border-radius: 0 2px 2px 0;
+}
+
+.Toggle[data-pressed] .HueIndicator {
+  opacity: 1;
 }
