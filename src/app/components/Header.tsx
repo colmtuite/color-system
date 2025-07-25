@@ -26,9 +26,6 @@ export default function Header() {
         <Toggle defaultPressed={true}>
           <IconWheelShade />
         </Toggle>
-        <Toggle defaultPressed={true}>
-          <IconSunShade />
-        </Toggle>
       </div>
     </header>
   );
