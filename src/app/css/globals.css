@@ -87,6 +87,7 @@ body {
 }
 
 .demo-grid-cell {
+  position: relative;
   padding: var(--demo-grid-padding);
   border-bottom: .5px solid var(--gray-o1);
   border-right: .5px solid var(--gray-o1);

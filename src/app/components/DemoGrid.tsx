@@ -9,6 +9,14 @@ interface DemoGridProps {
   children: React.ReactNode;
 }
 
+// Wrapper component that automatically adds color family label
+const DemoGridCell = ({ children, colorFamily }: { children: React.ReactNode; colorFamily: string }) => (
+  <div className="demo-grid-cell">
+    {children}
+    <span className="demo-grid-cell-label">{colorFamily}</span>
+  </div>
+);
+
 export default function DemoGrid({ columns, aspectRatio, align = 'start', padding, label, children }: DemoGridProps) {
   return (
     <div className="demo-grid-container">
@@ -28,4 +36,7 @@ export default function DemoGrid({ columns, aspectRatio, align = 'start', paddin
       </div>
     </div>
   );
-} 
+}
+
+// Export the cell wrapper for use in pages
+export { DemoGridCell }; 
