@@ -20,6 +20,7 @@ export default function Header() {
           defaultPressed={true} 
           onPressedChange={isHomepage ? setGap : undefined}
           disabled={!isHomepage}
+          aria-label="toggle grid gap"
         >
           <IconGridShade />
         </Toggle>
@@ -27,6 +28,7 @@ export default function Header() {
           defaultPressed={true} 
           onPressedChange={setGrayscale}
           className="color-wheel"
+          aria-label="toggle grayscale"
         >
           <div style={{ position: 'absolute', display: 'flex', alignItems: 'center', opacity: grayscale ? '1' : '0' }}>
             <IconWheelColor />
