@@ -13,7 +13,7 @@ export default function Sidebar() {
           href="/" 
           aria-current={pathname === '/' ? 'page' : undefined}
         >
-          Color
+          Scales
         </Link>
         <Link 
           href="/text" 
