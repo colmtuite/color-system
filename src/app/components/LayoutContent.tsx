@@ -10,20 +10,20 @@ interface LayoutContentProps {
 }
 
 export default function LayoutContent({ children }: LayoutContentProps) {
-  const { grayscale } = useApp();
+  const { grayscale, sidebarsVisible } = useApp();
   
   return (
     <>
       <Header />
       <div className="main-content">
-        <Sidebar />
+        {sidebarsVisible && <Sidebar />}
         <div 
           className="center-content"
           style={{ filter: grayscale ? undefined : 'grayscale(1)' }}
         >
           {children}
         </div>
-        <RightSidebar />
+        {sidebarsVisible && <RightSidebar />}
       </div>
     </>
   );

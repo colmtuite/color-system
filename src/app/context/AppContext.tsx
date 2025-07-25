@@ -16,6 +16,10 @@ interface AppContextType {
     greens: boolean;
   };
   setHueFilter: (group: keyof AppContextType['hueFilters'], value: boolean) => void;
+  sidebarsVisible: boolean;
+  setSidebarsVisible: (visible: boolean) => void;
+  squashed: boolean;
+  setSquashed: (squashed: boolean) => void;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -31,13 +35,26 @@ export function AppProvider({ children }: { children: ReactNode }) {
     blues: true,
     greens: true,
   });
+  const [sidebarsVisible, setSidebarsVisible] = useState(true);
+  const [squashed, setSquashed] = useState(false);
 
   const setHueFilter = (group: keyof AppContextType['hueFilters'], value: boolean) => {
     setHueFilters(prev => ({ ...prev, [group]: value }));
   };
 
   return (
-    <AppContext.Provider value={{ gap, setGap, grayscale, setGrayscale, hueFilters, setHueFilter }}>
+    <AppContext.Provider value={{ 
+      gap, 
+      setGap, 
+      grayscale, 
+      setGrayscale, 
+      hueFilters, 
+      setHueFilter,
+      sidebarsVisible,
+      setSidebarsVisible,
+      squashed,
+      setSquashed
+    }}>
       {children}
     </AppContext.Provider>
   );

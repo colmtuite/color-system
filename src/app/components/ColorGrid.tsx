@@ -12,7 +12,7 @@ interface ColorGridProps {
 }
 
 export default function ColorGrid({ gap = false }: ColorGridProps) {
-  const { hueFilters } = useApp();
+  const { hueFilters, squashed } = useApp();
   
   const filteredFamilies = COLOR_FAMILIES.filter(family => {
     const hueGroup = getHueGroup(family);
@@ -20,7 +20,7 @@ export default function ColorGrid({ gap = false }: ColorGridProps) {
   });
 
   return (
-    <div className="Grid" style={{ gap: gap ? '1px' : undefined }}>
+    <div className={`Grid ${squashed ? 'squashed' : ''}`} style={{ gap: gap ? '1px' : undefined }}>
       <GridHeader />
       {filteredFamilies.map((family) => (
         <Scale 

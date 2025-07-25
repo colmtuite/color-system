@@ -56,6 +56,11 @@ html {
   font-size: 13px;
 }
 
+/* Squashed aspect ratio for Swatch */
+.squashed .Swatch {
+  aspect-ratio: 2;
+}
+
 .Name {
   display: inline-flex;
   box-sizing: border-box;

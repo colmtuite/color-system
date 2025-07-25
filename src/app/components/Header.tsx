@@ -9,7 +9,7 @@ import { useApp } from '../context/AppContext';
 import { usePathname } from 'next/navigation';
 
 export default function Header() {
-  const { gap, setGap, grayscale, setGrayscale, hueFilters, setHueFilter } = useApp();
+  const { gap, setGap, grayscale, setGrayscale, hueFilters, setHueFilter, sidebarsVisible, setSidebarsVisible, squashed, setSquashed } = useApp();
   const pathname = usePathname();
   const isHomepage = pathname === '/';
 
@@ -36,6 +36,22 @@ export default function Header() {
           <div style={{ transform: 'rotate(360deg)', position: 'absolute', display: 'flex', alignItems: 'center', opacity: grayscale ? '0' : '1' }}>
             <IconWheelShade />
           </div>
+        </Toggle>
+        
+        <Toggle 
+          defaultPressed={true} 
+          onPressedChange={setSidebarsVisible}
+          aria-label="toggle sidebars"
+        >
+          <IconSunShade />
+        </Toggle>
+        
+        <Toggle 
+          defaultPressed={false} 
+          onPressedChange={setSquashed}
+          aria-label="toggle squashed cells"
+        >
+          <span style={{ fontSize: '12px', fontWeight: '500' }}>S</span>
         </Toggle>
         
         {/* Hue Group Toggles */}
