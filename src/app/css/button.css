@@ -21,6 +21,7 @@
   border-radius: 9999px;
   height: 32px;
   font-family: inherit;
+  outline: none;
 }
 
 .Button.variant-filled { color: white; }

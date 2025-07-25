@@ -1,8 +1,4 @@
-@import url('theme.css');
-@import url('main.css');
-@import url('button.css');
 
-/* Global styles are now imported directly in the page component */
 
 /* Body layout */
 body {

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./css/style.css";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import RightSidebar from "./components/RightSidebar";
 
 export const metadata: Metadata = {
-  title: "Color",
-  description: "Color palettes",
+  title: "Color System",
+  description: "Color system",
 };
 
 export default function RootLayout({
