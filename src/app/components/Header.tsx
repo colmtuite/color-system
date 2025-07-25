@@ -44,7 +44,9 @@ export default function Header() {
           onPressedChange={(pressed) => setHueFilter('grays', pressed)}
           aria-label="toggle grays"
         >
-          <span style={{ fontSize: '12px', fontWeight: '500' }}>G</span>
+          <div className="d-f w-5">
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--gray-c2)' }} />
+          </div>
         </Toggle>
         
         <Toggle 
@@ -52,7 +54,9 @@ export default function Header() {
           onPressedChange={(pressed) => setHueFilter('yellows', pressed)}
           aria-label="toggle yellows"
         >
-          <span style={{ fontSize: '12px', fontWeight: '500' }}>Y</span>
+          <div className="d-f w-5">
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--amber-p1)' }} />
+          </div>
         </Toggle>
         
         <Toggle 
@@ -60,7 +64,10 @@ export default function Header() {
           onPressedChange={(pressed) => setHueFilter('reds', pressed)}
           aria-label="toggle reds"
         >
-          <span style={{ fontSize: '12px', fontWeight: '500' }}>R</span>
+          <div className="d-f w-5">
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--orange-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--red-p1)' }} />
+          </div>
         </Toggle>
         
         <Toggle 
@@ -68,7 +75,13 @@ export default function Header() {
           onPressedChange={(pressed) => setHueFilter('purples', pressed)}
           aria-label="toggle purples"
         >
-          <span style={{ fontSize: '12px', fontWeight: '500' }}>P</span>
+          <div className="d-f w-5">
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--pink-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--plum-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--purple-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--violet-p1)' }} />
+            
+          </div>
         </Toggle>
         
         <Toggle 
@@ -76,7 +89,10 @@ export default function Header() {
           onPressedChange={(pressed) => setHueFilter('blues', pressed)}
           aria-label="toggle blues"
         >
-          <span style={{ fontSize: '12px', fontWeight: '500' }}>B</span>
+          <div className="d-f w-5">
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--indigo-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--blue-p1)' }} />
+          </div>
         </Toggle>
         
         <Toggle 
@@ -84,7 +100,10 @@ export default function Header() {
           onPressedChange={(pressed) => setHueFilter('greens', pressed)}
           aria-label="toggle greens"
         >
-          <span style={{ fontSize: '12px', fontWeight: '500' }}>G</span>
+          <div className="d-f w-5">
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--teal-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--green-p1)' }} />
+          </div>
         </Toggle>
       </div>
     </header>
