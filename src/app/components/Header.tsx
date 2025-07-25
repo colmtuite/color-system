@@ -2,14 +2,14 @@
 
 import Toggle from './Toggle';
 import IconWheelShade from '../icons/IconWheelShade';
-// import IconWheelColor from '../icons/IconWheelColor';
+import IconWheelColor from '../icons/IconWheelColor';
 import IconSunShade from '../icons/IconSunShade';
 import IconGridShade from '../icons/IconGridShade';
 import { useApp } from '../context/AppContext';
 import { usePathname } from 'next/navigation';
 
 export default function Header() {
-  const { gap, setGap } = useApp();
+  const { gap, setGap, grayscale, setGrayscale } = useApp();
   const pathname = usePathname();
   const isHomepage = pathname === '/';
 
@@ -23,8 +23,17 @@ export default function Header() {
         >
           <IconGridShade />
         </Toggle>
-        <Toggle defaultPressed={true}>
-          <IconWheelShade />
+        <Toggle 
+          defaultPressed={true} 
+          onPressedChange={setGrayscale}
+          className="fuck-off"
+        >
+          <div style={{ position: 'absolute', display: 'flex', alignItems: 'center', opacity: grayscale ? '1' : '0' }}>
+            <IconWheelColor />
+          </div>
+          <div style={{ transform: 'rotate(360deg)', position: 'absolute', display: 'flex', alignItems: 'center', opacity: grayscale ? '0' : '1' }}>
+            <IconWheelShade />
+          </div>
         </Toggle>
       </div>
     </header>

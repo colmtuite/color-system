@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import "./css/style.css";
-import Sidebar from "./components/Sidebar";
-import Header from "./components/Header";
-import RightSidebar from "./components/RightSidebar";
 import { AppProvider } from "./context/AppContext";
+import LayoutContent from "./components/LayoutContent";
 
 export const metadata: Metadata = {
   title: "Color System",
@@ -19,14 +17,9 @@ export default function RootLayout({
     <html lang="en-US">
       <body>
         <AppProvider>
-          <Header />
-          <div className="main-content">
-            <Sidebar />
-            <div className="center-content">
-              {children}
-            </div>
-            <RightSidebar />
-          </div>
+          <LayoutContent>
+            {children}
+          </LayoutContent>
         </AppProvider>
       </body>
     </html>
