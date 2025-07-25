@@ -26,7 +26,7 @@ export default function Header() {
         <Toggle 
           defaultPressed={true} 
           onPressedChange={setGrayscale}
-          className="fuck-off"
+          className="color-wheel"
         >
           <div style={{ position: 'absolute', display: 'flex', alignItems: 'center', opacity: grayscale ? '1' : '0' }}>
             <IconWheelColor />
