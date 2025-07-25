@@ -38,6 +38,7 @@
 }
 
 .Toggle:disabled {
-  background-color: var(--gray-c1);
+  box-shadow: none;
+  opacity: 0.25;
   cursor: not-allowed;
 } 
