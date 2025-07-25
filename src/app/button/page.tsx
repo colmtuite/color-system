@@ -4,7 +4,7 @@ import DemoGrid from '../components/DemoGrid';
 export default function ButtonPage() {
   return (
     <div>
-      <DemoGrid columns={7} align="center" aspectRatio={1}>
+      <DemoGrid columns={7} align="center" aspectRatio={1} label="Filled Buttons">
         {COLOR_FAMILIES.map((family) => (
           <div
             key={family}
@@ -17,7 +17,7 @@ export default function ButtonPage() {
         ))}
       </DemoGrid>
       
-      <DemoGrid columns={7} align="center" aspectRatio={1}>
+      <DemoGrid columns={7} align="center" aspectRatio={1} label="Soft Buttons">
         {COLOR_FAMILIES.map((family) => (
           <div
             key={`soft-${family}`}
@@ -30,7 +30,7 @@ export default function ButtonPage() {
         ))}
       </DemoGrid>
       
-      <DemoGrid columns={7} align="center" aspectRatio={1}>
+      <DemoGrid columns={7} align="center" aspectRatio={1} label="Text Buttons">
         {COLOR_FAMILIES.map((family) => (
           <div
             key={`text-${family}`}
@@ -43,7 +43,7 @@ export default function ButtonPage() {
         ))}
       </DemoGrid>
       
-      <DemoGrid columns={7} align="center" aspectRatio={1}>
+      <DemoGrid columns={7} align="center" aspectRatio={1} label="Classic Buttons">
         {COLOR_FAMILIES.map((family) => (
           <div
             key={`classic-${family}`}
@@ -56,7 +56,7 @@ export default function ButtonPage() {
         ))}
       </DemoGrid>
       
-      <DemoGrid columns={7} align="center" aspectRatio={1}>
+      <DemoGrid columns={7} align="center" aspectRatio={1} label="Outlined Buttons">
         {COLOR_FAMILIES.map((family) => (
           <div
             key={`outlined-${family}`}

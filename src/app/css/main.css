@@ -78,6 +78,22 @@ html {
   margin-right: auto;
 }
 
+.demo-grid-label {
+  font-size: 12px;
+  color: var(--gray-t1);
+  font-family: test söhne mono, menlo, monaco, monospace;
+  margin: 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  background-color: var(--gray-s2);
+  user-select: none;
+  line-height: 1;
+  border-bottom: .5px solid var(--gray-o1);
+  padding-left: 12px;
+}
+
 .f-g {
   filter: grayscale(1);
 }

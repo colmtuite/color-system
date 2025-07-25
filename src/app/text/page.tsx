@@ -4,7 +4,7 @@ import DemoGrid from '../components/DemoGrid';
 export default function TextPage() {
   return (
     <div>
-      <DemoGrid columns={2} padding={32}>
+      <DemoGrid columns={2} padding={32} label="Primary Text Colors">
         {COLOR_FAMILIES.map((family) => (
           <div
             key={family}
@@ -16,7 +16,7 @@ export default function TextPage() {
         ))}
       </DemoGrid>
       
-      <DemoGrid columns={2} padding={32}>
+      <DemoGrid columns={2} padding={32} label="Secondary Text Colors">
         {COLOR_FAMILIES.map((family) => (
           <div
             key={`t2-${family}`}
