@@ -1,14 +1,14 @@
 export const COLOR_FAMILIES = [
-  'gray', 'mauve', 'slate', 'sage', 'olive', 'sand', 'amber', 'orange', 'red', 'pink', 'plum', 'purple', 'violet', 'indigo', 'blue', 'teal', 'green'
+  'gray', 'mauve', 'slate', 'sage', 'olive', 'sand', 'yellow', 'amber', 'orange', 'poppy', 'red', 'cherry', 'crimson', 'pink', 'plum', 'purple', 'violet', 'sapphire', 'indigo', 'blue', 'teal', 'green'
 ] as const;
 
 // Hue group mapping
 export const HUE_GROUPS = {
   grays: ['gray', 'mauve', 'slate', 'sage', 'olive', 'sand'],
-  yellows: ['amber'],
-  reds: ['orange', 'red'],
+  yellows: ['yellow', 'amber'],
+  reds: ['orange', 'poppy', 'red', 'cherry', 'crimson'],
   purples: ['pink', 'plum', 'purple', 'violet'],
-  blues: ['indigo', 'blue'],
+  blues: ['sapphire', 'indigo', 'blue'],
   greens: ['teal', 'green'],
 };
 

@@ -31,13 +31,18 @@
 .Button.variant-filled.color-sage { background-color: var(--sage-p1); }
 .Button.variant-filled.color-olive { background-color: var(--olive-p1); }
 .Button.variant-filled.color-sand { background-color: var(--sand-p1); }
+.Button.variant-filled.color-yellow { background-color: var(--yellow-p1); color: black; }
 .Button.variant-filled.color-amber { background-color: var(--amber-p1); color: black; }
 .Button.variant-filled.color-orange { background-color: var(--orange-p1); }
+.Button.variant-filled.color-poppy { background-color: var(--poppy-p1); }
 .Button.variant-filled.color-red { background-color: var(--red-p1); }
+.Button.variant-filled.color-cherry { background-color: var(--cherry-p1); }
+.Button.variant-filled.color-crimson { background-color: var(--crimson-p1); }
 .Button.variant-filled.color-pink { background-color: var(--pink-p1); }
 .Button.variant-filled.color-plum { background-color: var(--plum-p1); }
 .Button.variant-filled.color-purple { background-color: var(--purple-p1); }
 .Button.variant-filled.color-violet { background-color: var(--violet-p1); }
+.Button.variant-filled.color-sapphire { background-color: var(--sapphire-p1); }
 .Button.variant-filled.color-indigo { background-color: var(--indigo-p1); }
 .Button.variant-filled.color-blue { background-color: var(--blue-p1); }
 .Button.variant-filled.color-teal { background-color: var(--teal-p1); }
@@ -49,13 +54,18 @@
 .Button.variant-soft.color-sage { background-color: var(--sage-c1); color: var(--sage-t1); }
 .Button.variant-soft.color-olive { background-color: var(--olive-c1); color: var(--olive-t1); }
 .Button.variant-soft.color-sand { background-color: var(--sand-c1); color: var(--sand-t1); }
+.Button.variant-soft.color-yellow { background-color: var(--yellow-c1); color: var(--yellow-t1); }
 .Button.variant-soft.color-amber { background-color: var(--amber-c1); color: var(--amber-t1); }
 .Button.variant-soft.color-orange { background-color: var(--orange-c1); color: var(--orange-t1); }
+.Button.variant-soft.color-poppy { background-color: var(--poppy-c1); color: var(--poppy-t1); }
 .Button.variant-soft.color-red { background-color: var(--red-c1); color: var(--red-t1); }
+.Button.variant-soft.color-cherry { background-color: var(--cherry-c1); color: var(--cherry-t1); }
+.Button.variant-soft.color-crimson { background-color: var(--crimson-c1); color: var(--crimson-t1); }
 .Button.variant-soft.color-pink { background-color: var(--pink-c1); color: var(--pink-t1); }
 .Button.variant-soft.color-plum { background-color: var(--plum-c1); color: var(--plum-t1); }
 .Button.variant-soft.color-purple { background-color: var(--purple-c1); color: var(--purple-t1); }
 .Button.variant-soft.color-violet { background-color: var(--violet-c1); color: var(--violet-t1); }
+.Button.variant-soft.color-sapphire { background-color: var(--sapphire-c1); color: var(--sapphire-t1); }
 .Button.variant-soft.color-indigo { background-color: var(--indigo-c1); color: var(--indigo-t1); }
 .Button.variant-soft.color-blue { background-color: var(--blue-c1); color: var(--blue-t1); }
 .Button.variant-soft.color-teal { background-color: var(--teal-c1); color: var(--teal-t1); }
@@ -67,13 +77,18 @@
 .Button.variant-soft.color-sage:hover { background-color: var(--sage-c2); }
 .Button.variant-soft.color-olive:hover { background-color: var(--olive-c2); }
 .Button.variant-soft.color-sand:hover { background-color: var(--sand-c2); }
+.Button.variant-soft.color-yellow:hover { background-color: var(--yellow-c2); }
 .Button.variant-soft.color-amber:hover { background-color: var(--amber-c2); }
 .Button.variant-soft.color-orange:hover { background-color: var(--orange-c2); }
+.Button.variant-soft.color-poppy:hover { background-color: var(--poppy-c2); }
 .Button.variant-soft.color-red:hover { background-color: var(--red-c2); }
+.Button.variant-soft.color-cherry:hover { background-color: var(--cherry-c2); }
+.Button.variant-soft.color-crimson:hover { background-color: var(--crimson-c2); }
 .Button.variant-soft.color-pink:hover { background-color: var(--pink-c2); }
 .Button.variant-soft.color-plum:hover { background-color: var(--plum-c2); }
 .Button.variant-soft.color-purple:hover { background-color: var(--purple-c2); }
 .Button.variant-soft.color-violet:hover { background-color: var(--violet-c2); }
+.Button.variant-soft.color-sapphire:hover { background-color: var(--sapphire-c2); }
 .Button.variant-soft.color-indigo:hover { background-color: var(--indigo-c2); }
 .Button.variant-soft.color-blue:hover { background-color: var(--blue-c2); }
 .Button.variant-soft.color-teal:hover { background-color: var(--teal-c2); }
@@ -85,13 +100,18 @@
 .Button.variant-soft.color-sage:active { background-color: var(--sage-c3); }
 .Button.variant-soft.color-olive:active { background-color: var(--olive-c3); }
 .Button.variant-soft.color-sand:active { background-color: var(--sand-c3); }
+.Button.variant-soft.color-yellow:active { background-color: var(--yellow-c3); }
 .Button.variant-soft.color-amber:active { background-color: var(--amber-c3); }
 .Button.variant-soft.color-orange:active { background-color: var(--orange-c3); }
+.Button.variant-soft.color-poppy:active { background-color: var(--poppy-c3); }
 .Button.variant-soft.color-red:active { background-color: var(--red-c3); }
+.Button.variant-soft.color-cherry:active { background-color: var(--cherry-c3); }
+.Button.variant-soft.color-crimson:active { background-color: var(--crimson-c3); }
 .Button.variant-soft.color-pink:active { background-color: var(--pink-c3); }
 .Button.variant-soft.color-plum:active { background-color: var(--plum-c3); }
 .Button.variant-soft.color-purple:active { background-color: var(--purple-c3); }
 .Button.variant-soft.color-violet:active { background-color: var(--violet-c3); }
+.Button.variant-soft.color-sapphire:active { background-color: var(--sapphire-c3); }
 .Button.variant-soft.color-indigo:active { background-color: var(--indigo-c3); }
 .Button.variant-soft.color-blue:active { background-color: var(--blue-c3); }
 .Button.variant-soft.color-teal:active { background-color: var(--teal-c3); }
@@ -103,13 +123,18 @@
 .Button.variant-text.color-sage { color: var(--sage-t1); }
 .Button.variant-text.color-olive { color: var(--olive-t1); }
 .Button.variant-text.color-sand { color: var(--sand-t1); }
+.Button.variant-text.color-yellow { color: var(--yellow-t1); }
 .Button.variant-text.color-amber { color: var(--amber-t1); }
 .Button.variant-text.color-orange { color: var(--orange-t1); }
+.Button.variant-text.color-poppy { color: var(--poppy-t1); }
 .Button.variant-text.color-red { color: var(--red-t1); }
+.Button.variant-text.color-cherry { color: var(--cherry-t1); }
+.Button.variant-text.color-crimson { color: var(--crimson-t1); }
 .Button.variant-text.color-pink { color: var(--pink-t1); }
 .Button.variant-text.color-plum { color: var(--plum-t1); }
 .Button.variant-text.color-purple { color: var(--purple-t1); }
 .Button.variant-text.color-violet { color: var(--violet-t1); }
+.Button.variant-text.color-sapphire { color: var(--sapphire-t1); }
 .Button.variant-text.color-indigo { color: var(--indigo-t1); }
 .Button.variant-text.color-blue { color: var(--blue-t1); }
 .Button.variant-text.color-teal { color: var(--teal-t1); }
@@ -121,13 +146,18 @@
 .Button.variant-text.color-sage:hover { background-color: var(--sage-c2); }
 .Button.variant-text.color-olive:hover { background-color: var(--olive-c2); }
 .Button.variant-text.color-sand:hover { background-color: var(--sand-c2); }
+.Button.variant-text.color-yellow:hover { background-color: var(--yellow-c2); }
 .Button.variant-text.color-amber:hover { background-color: var(--amber-c2); }
 .Button.variant-text.color-orange:hover { background-color: var(--orange-c2); }
+.Button.variant-text.color-poppy:hover { background-color: var(--poppy-c2); }
 .Button.variant-text.color-red:hover { background-color: var(--red-c2); }
+.Button.variant-text.color-cherry:hover { background-color: var(--cherry-c2); }
+.Button.variant-text.color-crimson:hover { background-color: var(--crimson-c2); }
 .Button.variant-text.color-pink:hover { background-color: var(--pink-c2); }
 .Button.variant-text.color-plum:hover { background-color: var(--plum-c2); }
 .Button.variant-text.color-purple:hover { background-color: var(--purple-c2); }
 .Button.variant-text.color-violet:hover { background-color: var(--violet-c2); }
+.Button.variant-text.color-sapphire:hover { background-color: var(--sapphire-c2); }
 .Button.variant-text.color-indigo:hover { background-color: var(--indigo-c2); }
 .Button.variant-text.color-blue:hover { background-color: var(--blue-c2); }
 .Button.variant-text.color-teal:hover { background-color: var(--teal-c2); }
@@ -139,13 +169,18 @@
 .Button.variant-text.color-sage:active { background-color: var(--sage-c3); }
 .Button.variant-text.color-olive:active { background-color: var(--olive-c3); }
 .Button.variant-text.color-sand:active { background-color: var(--sand-c3); }
+.Button.variant-text.color-yellow:active { background-color: var(--yellow-c3); }
 .Button.variant-text.color-amber:active { background-color: var(--amber-c3); }
 .Button.variant-text.color-orange:active { background-color: var(--orange-c3); }
+.Button.variant-text.color-poppy:active { background-color: var(--poppy-c3); }
 .Button.variant-text.color-red:active { background-color: var(--red-c3); }
+.Button.variant-text.color-cherry:active { background-color: var(--cherry-c3); }
+.Button.variant-text.color-crimson:active { background-color: var(--crimson-c3); }
 .Button.variant-text.color-pink:active { background-color: var(--pink-c3); }
 .Button.variant-text.color-plum:active { background-color: var(--plum-c3); }
 .Button.variant-text.color-purple:active { background-color: var(--purple-c3); }
 .Button.variant-text.color-violet:active { background-color: var(--violet-c3); }
+.Button.variant-text.color-sapphire:active { background-color: var(--sapphire-c3); }
 .Button.variant-text.color-indigo:active { background-color: var(--indigo-c3); }
 .Button.variant-text.color-blue:active { background-color: var(--blue-c3); }
 .Button.variant-text.color-teal:active { background-color: var(--teal-c3); }
@@ -158,13 +193,18 @@
 .Button.variant-classic.color-sage { background-color: var(--sage-s1); border-color: var(--sage-o2); color: var(--sage-t1); }
 .Button.variant-classic.color-olive { background-color: var(--olive-s1); border-color: var(--olive-o2); color: var(--olive-t1); }
 .Button.variant-classic.color-sand { background-color: var(--sand-s1); border-color: var(--sand-o2); color: var(--sand-t1); }
+.Button.variant-classic.color-yellow { background-color: var(--yellow-s1); border-color: var(--yellow-o2); color: var(--yellow-t1); }
 .Button.variant-classic.color-amber { background-color: var(--amber-s1); border-color: var(--amber-o2); color: var(--amber-t1); }
 .Button.variant-classic.color-orange { background-color: var(--orange-s1); border-color: var(--orange-o2); color: var(--orange-t1); }
+.Button.variant-classic.color-poppy { background-color: var(--poppy-s1); border-color: var(--poppy-o2); color: var(--poppy-t1); }
 .Button.variant-classic.color-red { background-color: var(--red-s1); border-color: var(--red-o2); color: var(--red-t1); }
+.Button.variant-classic.color-cherry { background-color: var(--cherry-s1); border-color: var(--cherry-o2); color: var(--cherry-t1); }
+.Button.variant-classic.color-crimson { background-color: var(--crimson-s1); border-color: var(--crimson-o2); color: var(--crimson-t1); }
 .Button.variant-classic.color-pink { background-color: var(--pink-s1); border-color: var(--pink-o2); color: var(--pink-t1); }
 .Button.variant-classic.color-plum { background-color: var(--plum-s1); border-color: var(--plum-o2); color: var(--plum-t1); }
 .Button.variant-classic.color-purple { background-color: var(--purple-s1); border-color: var(--purple-o2); color: var(--purple-t1); }
 .Button.variant-classic.color-violet { background-color: var(--violet-s1); border-color: var(--violet-o2); color: var(--violet-t1); }
+.Button.variant-classic.color-sapphire { background-color: var(--sapphire-s1); border-color: var(--sapphire-o2); color: var(--sapphire-t1); }
 .Button.variant-classic.color-indigo { background-color: var(--indigo-s1); border-color: var(--indigo-o2); color: var(--indigo-t1); }
 .Button.variant-classic.color-blue { background-color: var(--blue-s1); border-color: var(--blue-o2); color: var(--blue-t1); }
 .Button.variant-classic.color-teal { background-color: var(--teal-s1); border-color: var(--teal-o2); color: var(--teal-t1); }
@@ -176,13 +216,18 @@
 .Button.variant-classic.color-sage:hover { border-color: var(--sage-o3); }
 .Button.variant-classic.color-olive:hover { border-color: var(--olive-o3); }
 .Button.variant-classic.color-sand:hover { border-color: var(--sand-o3); }
+.Button.variant-classic.color-yellow:hover { border-color: var(--yellow-o3); }
 .Button.variant-classic.color-amber:hover { border-color: var(--amber-o3); }
 .Button.variant-classic.color-orange:hover { border-color: var(--orange-o3); }
+.Button.variant-classic.color-poppy:hover { border-color: var(--poppy-o3); }
 .Button.variant-classic.color-red:hover { border-color: var(--red-o3); }
+.Button.variant-classic.color-cherry:hover { border-color: var(--cherry-o3); }
+.Button.variant-classic.color-crimson:hover { border-color: var(--crimson-o3); }
 .Button.variant-classic.color-pink:hover { border-color: var(--pink-o3); }
 .Button.variant-classic.color-plum:hover { border-color: var(--plum-o3); }
 .Button.variant-classic.color-purple:hover { border-color: var(--purple-o3); }
 .Button.variant-classic.color-violet:hover { border-color: var(--violet-o3); }
+.Button.variant-classic.color-sapphire:hover { border-color: var(--sapphire-o3); }
 .Button.variant-classic.color-indigo:hover { border-color: var(--indigo-o3); }
 .Button.variant-classic.color-blue:hover { border-color: var(--blue-o3); }
 .Button.variant-classic.color-teal:hover { border-color: var(--teal-o3); }
@@ -194,13 +239,18 @@
 .Button.variant-classic.color-sage:active { background-color: var(--sage-s2); }
 .Button.variant-classic.color-olive:active { background-color: var(--olive-s2); }
 .Button.variant-classic.color-sand:active { background-color: var(--sand-s2); }
+.Button.variant-classic.color-yellow:active { background-color: var(--yellow-s2); }
 .Button.variant-classic.color-amber:active { background-color: var(--amber-s2); }
 .Button.variant-classic.color-orange:active { background-color: var(--orange-s2); }
+.Button.variant-classic.color-poppy:active { background-color: var(--poppy-s2); }
 .Button.variant-classic.color-red:active { background-color: var(--red-s2); }
+.Button.variant-classic.color-cherry:active { background-color: var(--cherry-s2); }
+.Button.variant-classic.color-crimson:active { background-color: var(--crimson-s2); }
 .Button.variant-classic.color-pink:active { background-color: var(--pink-s2); }
 .Button.variant-classic.color-plum:active { background-color: var(--plum-s2); }
 .Button.variant-classic.color-purple:active { background-color: var(--purple-s2); }
 .Button.variant-classic.color-violet:active { background-color: var(--violet-s2); }
+.Button.variant-classic.color-sapphire:active { background-color: var(--sapphire-s2); }
 .Button.variant-classic.color-indigo:active { background-color: var(--indigo-s2); }
 .Button.variant-classic.color-blue:active { background-color: var(--blue-s2); }
 .Button.variant-classic.color-teal:active { background-color: var(--teal-s2); }
@@ -213,13 +263,18 @@
 .Button.variant-outlined.color-sage { border-color: var(--sage-p1); color: var(--sage-t1); }
 .Button.variant-outlined.color-olive { border-color: var(--olive-p1); color: var(--olive-t1); }
 .Button.variant-outlined.color-sand { border-color: var(--sand-p1); color: var(--sand-t1); }
+.Button.variant-outlined.color-yellow { border-color: var(--yellow-p1); color: var(--yellow-t1); }
 .Button.variant-outlined.color-amber { border-color: var(--amber-p1); color: var(--amber-t1); }
 .Button.variant-outlined.color-orange { border-color: var(--orange-p1); color: var(--orange-t1); }
+.Button.variant-outlined.color-poppy { border-color: var(--poppy-p1); color: var(--poppy-t1); }
 .Button.variant-outlined.color-red { border-color: var(--red-p1); color: var(--red-t1); }
+.Button.variant-outlined.color-cherry { border-color: var(--cherry-p1); color: var(--cherry-t1); }
+.Button.variant-outlined.color-crimson { border-color: var(--crimson-p1); color: var(--crimson-t1); }
 .Button.variant-outlined.color-pink { border-color: var(--pink-p1); color: var(--pink-t1); }
 .Button.variant-outlined.color-plum { border-color: var(--plum-p1); color: var(--plum-t1); }
 .Button.variant-outlined.color-purple { border-color: var(--purple-p1); color: var(--purple-t1); }
 .Button.variant-outlined.color-violet { border-color: var(--violet-p1); color: var(--violet-t1); }
+.Button.variant-outlined.color-sapphire { border-color: var(--sapphire-p1); color: var(--sapphire-t1); }
 .Button.variant-outlined.color-indigo { border-color: var(--indigo-p1); color: var(--indigo-t1); }
 .Button.variant-outlined.color-blue { border-color: var(--blue-p1); color: var(--blue-t1); }
 .Button.variant-outlined.color-teal { border-color: var(--teal-p1); color: var(--teal-t1); }
@@ -231,13 +286,18 @@
 .Button.variant-outlined.color-sage:hover { background-color: var(--sage-s1); }
 .Button.variant-outlined.color-olive:hover { background-color: var(--olive-s1); }
 .Button.variant-outlined.color-sand:hover { background-color: var(--sand-s1); }
+.Button.variant-outlined.color-yellow:hover { background-color: var(--yellow-s1); }
 .Button.variant-outlined.color-amber:hover { background-color: var(--amber-s1); }
 .Button.variant-outlined.color-orange:hover { background-color: var(--orange-s1); }
+.Button.variant-outlined.color-poppy:hover { background-color: var(--poppy-s1); }
 .Button.variant-outlined.color-red:hover { background-color: var(--red-s1); }
+.Button.variant-outlined.color-cherry:hover { background-color: var(--cherry-s1); }
+.Button.variant-outlined.color-crimson:hover { background-color: var(--crimson-s1); }
 .Button.variant-outlined.color-pink:hover { background-color: var(--pink-s1); }
 .Button.variant-outlined.color-plum:hover { background-color: var(--plum-s1); }
 .Button.variant-outlined.color-purple:hover { background-color: var(--purple-s1); }
 .Button.variant-outlined.color-violet:hover { background-color: var(--violet-s1); }
+.Button.variant-outlined.color-sapphire:hover { background-color: var(--sapphire-s1); }
 .Button.variant-outlined.color-indigo:hover { background-color: var(--indigo-s1); }
 .Button.variant-outlined.color-blue:hover { background-color: var(--blue-s1); }
 .Button.variant-outlined.color-teal:hover { background-color: var(--teal-s1); }
@@ -249,13 +309,18 @@
 .Button.variant-outlined.color-sage:active { background-color: var(--sage-s2); }
 .Button.variant-outlined.color-olive:active { background-color: var(--olive-s2); }
 .Button.variant-outlined.color-sand:active { background-color: var(--sand-s2); }
+.Button.variant-outlined.color-yellow:active { background-color: var(--yellow-s2); }
 .Button.variant-outlined.color-amber:active { background-color: var(--amber-s2); }
 .Button.variant-outlined.color-orange:active { background-color: var(--orange-s2); }
+.Button.variant-outlined.color-poppy:active { background-color: var(--poppy-s2); }
 .Button.variant-outlined.color-red:active { background-color: var(--red-s2); }
+.Button.variant-outlined.color-cherry:active { background-color: var(--cherry-s2); }
+.Button.variant-outlined.color-crimson:active { background-color: var(--crimson-s2); }
 .Button.variant-outlined.color-pink:active { background-color: var(--pink-s2); }
 .Button.variant-outlined.color-plum:active { background-color: var(--plum-s2); }
 .Button.variant-outlined.color-purple:active { background-color: var(--purple-s2); }
 .Button.variant-outlined.color-violet:active { background-color: var(--violet-s2); }
+.Button.variant-outlined.color-sapphire:active { background-color: var(--sapphire-s2); }
 .Button.variant-outlined.color-indigo:active { background-color: var(--indigo-s2); }
 .Button.variant-outlined.color-blue:active { background-color: var(--blue-s2); }
 .Button.variant-outlined.color-teal:active { background-color: var(--teal-s2); }

@@ -77,6 +77,19 @@
   --sand-t1: hsl(60, 3%, 38%);
   --sand-t2: hsl(48, 8%, 12%);
 
+  --yellow-s1: hsl(52, 100%, 97%);
+  --yellow-s2: hsl(52, 100%, 95%);
+  --yellow-c1: hsl(52, 100%, 88%);
+  --yellow-c2: hsl(52, 100%, 85%);
+  --yellow-c3: hsl(52, 100%, 83%);
+  --yellow-o1: hsl(52, 84%, 70%);
+  --yellow-o2: hsl(52, 75%, 65%);
+  --yellow-o3: hsl(52, 75%, 55%);
+  --yellow-p1: hsl(52, 100%, 62%);
+  --yellow-p2: hsl(52, 100%, 55%);
+  --yellow-t1: hsl(52, 100%, 34%);
+  --yellow-t2: hsl(52, 40%, 22%);
+
   --amber-s1: hsl(50, 100%, 97%);
   --amber-s2: hsl(49, 100%, 95%);
   --amber-c1: hsl(48, 100%, 88%);
@@ -98,10 +111,23 @@
   --orange-o1: hsl(30, 100%, 75%);
   --orange-o2: hsl(27, 87%, 71%);
   --orange-o3: hsl(25, 80%, 63%);
-  --orange-p1: hsl(23, 93%, 53%);
+  --orange-p1: hsl(20, 98%, 53%);
   --orange-p2: hsl(24, 100%, 47%);
   --orange-t1: hsl(23, 100%, 40%);
   --orange-t2: hsl(16, 50%, 23%);
+
+  --poppy-s1: hsl(38, 100%, 98.5%);
+  --poppy-s2: hsl(36, 100%, 97%);
+  --poppy-c1: hsl(37, 100%, 92.5%);
+  --poppy-c2: hsl(35, 100%, 91%);
+  --poppy-c3: hsl(34, 100%, 89%);
+  --poppy-o1: hsl(30, 100%, 75%);
+  --poppy-o2: hsl(27, 87%, 71%);
+  --poppy-o3: hsl(25, 80%, 63%);
+  --poppy-p1: hsl(9, 98%, 59%);
+  --poppy-p2: hsl(24, 100%, 47%);
+  --poppy-t1: hsl(23, 100%, 40%);
+  --poppy-t2: hsl(16, 50%, 23%);
 
   --red-s1: hsl(0, 100%, 99.25%);
   --red-s2: hsl(0, 100%, 98.5%);
@@ -111,10 +137,36 @@
   --red-o1: hsl(359, 94%, 87%);
   --red-o2: hsl(359, 77%, 81%);
   --red-o3: hsl(359, 70%, 74%);
-  --red-p1: hsl(358, 75%, 59%);
+  --red-p1: hsl(0, 92%, 62%);
   --red-p2: hsl(358, 69%, 55%);
   --red-t1: hsl(358, 65%, 49%);
   --red-t2: hsl(351, 63%, 24%);
+
+  --cherry-s1: hsl(350, 100%, 99.25%);
+  --cherry-s2: hsl(350, 100%, 98.5%);
+  --cherry-c1: hsl(350, 100%, 96.75%);
+  --cherry-c2: hsl(350, 100%, 95.75%);
+  --cherry-c3: hsl(350, 100%, 95%);
+  --cherry-o1: hsl(349, 94%, 87%);
+  --cherry-o2: hsl(349, 77%, 81%);
+  --cherry-o3: hsl(349, 70%, 74%);
+  --cherry-p1: hsl(350, 92%, 62%);
+  --cherry-p2: hsl(348, 69%, 55%);
+  --cherry-t1: hsl(348, 65%, 49%);
+  --cherry-t2: hsl(341, 63%, 24%);
+
+  --crimson-s1: hsl(340, 100%, 99.25%);
+  --crimson-s2: hsl(340, 100%, 98.5%);
+  --crimson-c1: hsl(340, 100%, 96.75%);
+  --crimson-c2: hsl(340, 100%, 95.75%);
+  --crimson-c3: hsl(340, 100%, 95%);
+  --crimson-o1: hsl(339, 94%, 87%);
+  --crimson-o2: hsl(339, 77%, 81%);
+  --crimson-o3: hsl(339, 70%, 74%);
+  --crimson-p1: hsl(340, 92%, 62%);
+  --crimson-p2: hsl(338, 69%, 55%);
+  --crimson-t1: hsl(338, 65%, 49%);
+  --crimson-t2: hsl(331, 63%, 24%);
 
   --pink-s1: hsl(310, 100%, 99.25%);
   --pink-s2: hsl(308, 100%, 98.5%);
@@ -124,7 +176,7 @@
   --pink-o1: hsl(323, 60%, 84%);
   --pink-o2: hsl(323, 55%, 79%);
   --pink-o3: hsl(308, 52%, 72%);
-  --pink-p1: hsl(308, 65%, 55%);
+  --pink-p1: hsl(306, 84%, 57%);
   --pink-p2: hsl(308, 61%, 52%);
   --pink-t1: hsl(308, 65%, 46%);
   --pink-t2: hsl(320, 70%, 23%);
@@ -137,7 +189,7 @@
   --plum-o1: hsl(286, 53%, 84%);
   --plum-o2: hsl(284, 49%, 78%);
   --plum-o3: hsl(282, 48%, 71%);
-  --plum-p1: hsl(282, 45%, 51%);
+  --plum-p1: hsl(282, 86%, 57%);
   --plum-p2: hsl(282, 44%, 48%);
   --plum-t1: hsl(282, 45%, 44%);
   --plum-t2: hsl(281, 58%, 23%);
@@ -149,10 +201,10 @@
   --purple-c3: hsl(274, 100%, 95.25%);
   --purple-o1: hsl(275, 69%, 86%);
   --purple-o2: hsl(273, 62%, 81%);
-  --purple-o3: hsl(272, 60%, 74%);
-  --purple-p1: hsl(272, 51%, 54%);
-  --purple-p2: hsl(272, 45%, 50%);
-  --purple-t1: hsl(272, 45%, 49%);
+  --purple-o3: hsl(270, 60%, 74%);
+  --purple-p1: hsl(270, 89%, 60%);
+  --purple-p2: hsl(270, 45%, 50%);
+  --purple-t1: hsl(270, 45%, 49%);
   --purple-t2: hsl(270, 50%, 25%);
     
   --violet-s1: hsl(258, 100%, 99.25%);
@@ -160,26 +212,39 @@
   --violet-c1: hsl(258, 100%, 97%);
   --violet-c2: hsl(257, 100%, 96%);
   --violet-c3: hsl(255, 100%, 95.5%);
-  --violet-o1: hsl(254, 96%, 89%);
-  --violet-o2: hsl(254, 76%, 84%);
-  --violet-o3: hsl(254, 69%, 76%);
-  --violet-p1: hsl(254, 56%, 57%);
-  --violet-p2: hsl(254, 50%, 54%);
-  --violet-t1: hsl(254, 43%, 52%);
+  --violet-o1: hsl(252, 96%, 89%);
+  --violet-o2: hsl(252, 76%, 84%);
+  --violet-o3: hsl(252, 69%, 76%);
+  --violet-p1: hsl(252, 94%, 64%);
+  --violet-p2: hsl(252, 50%, 54%);
+  --violet-t1: hsl(252, 43%, 52%);
   --violet-t2: hsl(249, 43%, 26%);
     
-  --indigo-s1: hsl(220, 100%, 99.25%);
-  --indigo-s2: hsl(218, 100%, 98.5%);
-  --indigo-c1: hsl(214, 100%, 96%);
-  --indigo-c2: hsl(216, 100%, 95%);
-  --indigo-c3: hsl(217, 100%, 94%);
-  --indigo-o1: hsl(225, 100%, 88%);
-  --indigo-o2: hsl(226, 87%, 82%);
-  --indigo-o3: hsl(226, 75%, 75%);
-  --indigo-p1: hsl(226, 70%, 55%);
-  --indigo-p2: hsl(226, 65%, 52%);
-  --indigo-t1: hsl(226, 56%, 50%);
-  --indigo-t2: hsl(226, 50%, 24%);
+  --sapphire-s1: hsl(220, 100%, 99.25%);
+  --sapphire-s2: hsl(218, 100%, 98.5%);
+  --sapphire-c1: hsl(214, 100%, 96%);
+  --sapphire-c2: hsl(216, 100%, 95%);
+  --sapphire-c3: hsl(217, 100%, 94%);
+  --sapphire-o1: hsl(225, 100%, 88%);
+  --sapphire-o2: hsl(222, 87%, 82%);
+  --sapphire-o3: hsl(222, 75%, 75%);
+  --sapphire-p1: hsl(222, 88%, 54%);
+  --sapphire-p2: hsl(222, 65%, 52%);
+  --sapphire-t1: hsl(222, 56%, 50%);
+  --sapphire-t2: hsl(222, 50%, 24%);
+
+  --indigo-s1: hsl(204, 100%, 99%);
+  --indigo-s2: hsl(198, 100%, 97.75%);
+  --indigo-c1: hsl(204, 100%, 95%);
+  --indigo-c2: hsl(205, 100%, 93.5%);
+  --indigo-c3: hsl(206, 100%, 92.5%);
+  --indigo-o1: hsl(207, 93%, 83%);
+  --indigo-o2: hsl(207, 85%, 76%);
+  --indigo-o3: hsl(206, 82%, 65%);
+  --indigo-p1: hsl(214, 98%, 50%);
+  --indigo-p2: hsl(207, 96%, 48%);
+  --indigo-t1: hsl(208, 88%, 43%);
+  --indigo-t2: hsl(216, 71%, 23%);
     
   --blue-s1: hsl(204, 100%, 99%);
   --blue-s2: hsl(198, 100%, 97.75%);
@@ -189,9 +254,9 @@
   --blue-o1: hsl(207, 93%, 83%);
   --blue-o2: hsl(207, 85%, 76%);
   --blue-o3: hsl(206, 82%, 65%);
-  --blue-p1: hsl(206, 100%, 50%);
+  --blue-p1: hsl(208, 100%, 50%);
   --blue-p2: hsl(207, 96%, 48%);
-  --blue-t1: hsl(208, 88%, 43%);
+  --blue-t1: hsl(206, 100%, 50%);
   --blue-t2: hsl(216, 71%, 23%);
 
   --teal-s1: hsl(165, 76%, 99%);

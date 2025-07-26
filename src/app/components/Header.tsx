@@ -71,6 +71,7 @@ export default function Header() {
           aria-label="toggle yellows"
         >
           <div className="d-f w-5">
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--yellow-p1)' }} />
             <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--amber-p1)' }} />
           </div>
         </Toggle>
@@ -82,7 +83,10 @@ export default function Header() {
         >
           <div className="d-f w-5">
             <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--orange-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--poppy-p1)' }} />
             <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--red-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--cherry-p1)' }} />
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--crimson-p1)' }} />
           </div>
         </Toggle>
         
@@ -106,6 +110,7 @@ export default function Header() {
           aria-label="toggle blues"
         >
           <div className="d-f w-5">
+            <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--sapphire-p1)' }} />
             <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--indigo-p1)' }} />
             <div className="HueIndicator" role="presentation" style={{ backgroundColor: 'var(--blue-p1)' }} />
           </div>
